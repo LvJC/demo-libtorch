@@ -9,15 +9,15 @@ After download this zip file, you need to unzip it here in your reposity 'cpp-li
 
 ## 2. Cmake
 Second, cmake & build & make.
-'''
+```
 mkdir build
 cd build
 cmake .. -DCMAKE_PREFIX_PATH=../libtorch
 make
-'''
+```
 
 ## 3. Run example-app
 Third, you can run the example-app after make.
-'''
+```
 ./example-app ../model.pt
-'''
+```
