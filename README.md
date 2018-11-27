@@ -7,6 +7,22 @@ https://download.pytorch.org/libtorch/nightly/cu90/libtorch-shared-with-deps-lat
 
 After download this zip file, you need to unzip it here in your reposity 'cpp-libtorch/'.
 
+Now the resposity should be like this:
+```
+cpp-libtorch
+    |libtorch
+        |build-version
+        |include
+        |lib
+        |share
+    |CMakeLists.txt
+    |example-app.cpp
+    |model.pt
+    |MyModule.py
+    |LICENSE
+    |README.md
+```
+
 ## 2. Cmake
 Second, cmake & build & make.
 ```
